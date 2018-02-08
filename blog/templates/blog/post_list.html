@@ -7,5 +7,12 @@
   <body>
     <h1>Kristopher's blog</h1>
     <h4>I made it using these <a href="https://tutorial.djangogirls.org/en/" target="blank">instructions</a></h4>
+  {% for post in posts %}
+    <div>
+      <p>Published: {{ post.published_date }}</p>
+      <h3><a href="">{{ post.title }}</a></h3>
+      <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+  {% endfor %}
   </body>
 </html>
