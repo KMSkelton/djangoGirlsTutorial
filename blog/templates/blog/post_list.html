@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant|Caudex" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/blog.css">
     <title>Django Girls Tutorial-style Blog</title>
   </head>
   <body>
-    <h1 class="posts">Kristopher's blog</h1>
-    <h4 class="posts">I made this based on these <a href="https://tutorial.djangogirls.org/en/" target="blank">instructions</a></h4>
+    <h1 class="header posts">Kristopher's blog</h1>
+    <h4 class=" header posts">I made this based on these <a href="https://tutorial.djangogirls.org/en/" target="blank">instructions</a></h4>
   {% for post in posts %}
-    <div class="posts">
+    <div class="body posts">
       <p>Published: {{ post.published_date }}</p>
       <h3><a href="">{{ post.title }}</a></h3>
       <p>{{ post.text|linebreaksbr }}</p>

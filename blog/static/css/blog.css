@@ -1,8 +1,12 @@
 a, a:link, a:visited {
   color: cobalt;
-  font-family: 'Oranienbaum', serif;
+  font-family: 'Cormorant', serif;
 }
 
 .posts {
   padding-left: 15px;
+  font-family: 'Caudex', serif;
+}
+.body .posts {
+  border-top: 2px blue solid;
 }
