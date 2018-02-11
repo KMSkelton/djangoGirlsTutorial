@@ -1,4 +1,8 @@
 a, a:link, a:visited {
   color: cobalt;
-  font-family: 'Oranienbaum', serif; 
+  font-family: 'Oranienbaum', serif;
+}
+
+.posts {
+  padding-left: 15px;
 }
