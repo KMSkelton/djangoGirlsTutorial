@@ -7,6 +7,8 @@
                 {{ post.published_date }}
             </div>
         {% endif %}
+        <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">+</a>
+
         <h1>{{ post.title }}</h1>
         <p>{% autoescape off %}{{ post.text|linebreaksbr }}{% endautoescape %}</p>
     </div>
