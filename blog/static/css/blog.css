@@ -54,3 +54,7 @@ footer > p {
   font-size: 125%;
   font-family: 'Libre+Baskerville', serif;
 }
+.backHome {
+  font-size: 80%;
+  padding-bottom: 30px;
+}

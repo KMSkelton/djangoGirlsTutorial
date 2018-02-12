@@ -3,7 +3,7 @@
   {% for post in posts %}
     <div class="body posts">
       <p class="pubDate">Published: {{ post.published_date }}</p>
-      <p class="postTitle">{{ post.title }}</p>
+      <p class="postTitle"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></p>
       <p>{% autoescape off %}{{ post.text|linebreaksbr }}{% endautoescape %}</p>
     </div>
   {% endfor %}
