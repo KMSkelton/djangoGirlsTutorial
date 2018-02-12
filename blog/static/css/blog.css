@@ -23,7 +23,11 @@ a:hover, a:visited {
   font-size: 150%;
 }
 .body.posts {
+  padding: 0;
   border-top: 2px blue solid;
+}
+.body.posts:first-child {
+  border: none;
 }
 .pubDate {
   font-size: 75%;
