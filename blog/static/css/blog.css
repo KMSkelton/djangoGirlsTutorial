@@ -4,6 +4,10 @@ body {
 header {
   background-color: cornflowerblue;
 }
+.topRow {
+  display: flex;
+}
+
 a {
   color: mediumseagreen;
 }

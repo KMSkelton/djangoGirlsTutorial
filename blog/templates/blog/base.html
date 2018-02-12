@@ -8,9 +8,11 @@
   </head>
   <body>
     <header>
-      <h1 class="headerItem">Kristopher's blog</h1>
+      <span class="topRow">
+        <h1 class="headerItem">Kristopher's blog</h1>
+        <a href="{% url 'post_new' %}" class="top-menu">+</a>        
+      </span>
       <h4 class="headerItem note">I made this based on these <a href="https://tutorial.djangogirls.org/en/" target="blank">instructions</a></h4>
-      <a href="{% url 'post_new' %}" class="top-menu">+</a>
     </header>
     <div class="body posts">
       {% block content %}
