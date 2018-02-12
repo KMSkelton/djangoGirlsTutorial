@@ -5,7 +5,7 @@ header {
   background-color: cornflowerblue;
 }
 a {
-  color: cornsilk;
+  color: mediumseagreen;
 }
 a:hover, a:visited {
   color: forestgreen;
@@ -43,5 +43,14 @@ h1, h2, h3, h4, h5 {
   width: 100%;
   margin: 0;
   padding-left: 15%;
+}
 
+footer {
+  height: 100px;
+  width: 100%;
+  border-top: 3px olivedrab double;
+}
+footer > p {
+  font-size: 125%;
+  font-family: 'Libre+Baskerville', serif;
 }
