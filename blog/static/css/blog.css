@@ -1,12 +1,43 @@
-a, a:link, a:visited {
-  color: cobalt;
-  font-family: 'Cormorant', serif;
+body {
+  background-color: aliceblue;
 }
-
+header {
+  background-color: cornflowerblue;
+}
+a {
+  color: cornsilk;
+}
+a:hover, a:visited {
+  color: forestgreen;
+}
 .posts {
   padding-left: 15px;
   font-family: 'Caudex', serif;
 }
-.body .posts {
+.headerItem {
+  padding-left: 15%;
+  font-family: 'Caudex', serif;
+  font-size: 200%;
+}
+.note {
+  font-size: 150%;
+}
+.body.posts {
   border-top: 2px blue solid;
+}
+.pubDate {
+  font-size: 75%;
+  line-height: .25;
+}
+.postTitle {
+  font-size: 200%;
+  color: darkgreen;
+  font-family: 'Cormorant', serif;
+}
+h1, h2, h3, h4, h5 {
+  height: 20%;
+  width: 100%;
+  margin: 0;
+  padding-left: 15%;
+
 }
